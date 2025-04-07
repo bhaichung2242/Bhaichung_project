@@ -20,7 +20,7 @@ else:
 
 another_iteam = input("Do you want to order more? Yes/No = ")
 if another_iteam == "Yes":
-    iteam2 = input("What do you like to add? = ")
+    iteam2 = input("add item = ")
     if iteam2 in menu:
         order_total += menu[iteam2]
         print(f"{iteam2} is added in your order.")
